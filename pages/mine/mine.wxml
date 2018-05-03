@@ -4,4 +4,21 @@
     <image class='user-avatar' src='{{userInfo.avatarUrl}}'></image>
     <text class='user-name'>{{userInfo.nickName}}</text>
   </view>
+
+  <view class='list'>
+    <view class='list-item'>已购</view>
+    <view class='list-item'>礼券</view>
+  </view>
+
+  <view class='list'>
+    <view class='list-item'>我的收藏</view>
+    <view class='list-item'>试戴记录</view>
+    <view class='list-item'>地址管理</view>
+  </view>
+
+  <view class='list'>
+    <view class='list-item'>分享推广</view>
+    <view class='list-item'>我的留言</view>
+    <!-- <view class='list-item'>设置</view> -->
+  </view>
 </view>

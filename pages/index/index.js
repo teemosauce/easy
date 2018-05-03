@@ -106,6 +106,15 @@ Page({
   },
 
   onLoad: function () {
-      console.log(wx.getStorageSync('TENANTS'))
+      // console.log(wx.getStorageSync('TENANTS'))
+    console.log('onLoad')
+  },
+
+  onReady:function(){
+    console.log('onReady')
+  },
+
+  onShow:function(x){
+    console.log('onShow', x)
   }
 })
