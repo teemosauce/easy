@@ -1,0 +1,18 @@
+@import '../../lib/weui.wxss'
+
+/**index.wxss**/
+.logininfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  border: 1rpx solid #ddd;
+  height: 50rpx;
+  margin-top: 10rpx;
+}
+
+.login {
+  margin-top: 10rpx;
+}
